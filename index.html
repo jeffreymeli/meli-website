@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jeffrey Meli</title>
+    <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <div class="menu-toggle" id="menu-toggle">☰</div>
+        <ul id="nav-links">
+            <li><a href="index.html">Biography</a></li>
+            <li><a href="research.html">Research</a></li>
+            <li><a href="teaching.html">Teaching</a></li>
+            <li><a href="media.html">Media/Appearances</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main class="content">
+    <h1>Jeffrey Meli</h1>
+
+    <section class="bio">
+        <h2 class="bio-title">Biography</h2>
+
+        <div class="bio-content">
+            <img src="https://www.stern.nyu.edu/faculty/static/photos/jm11241.jpg?v=20250617180507" 
+                 alt="Portrait of Jeffrey Meli" 
+                 class="profile-pic">
+
+            <div class="bio-text">
+                <p>Jeffrey Meli joined New York University Stern School of Business as a Clinical Professor of Finance in January 2025.</p>
+                <p>Meli’s research interests include the corporate bond market, liquidity, financial intermediation, and financial regulation.</p>
+                <p>Before joining NYU Stern, Meli spent nearly 25 years working in the private sector, originally as a research analyst covering the corporate bond and structured credit markets. He spent ten years as the global head of research at Barclays, where he was a member of the investment bank management team. He launched the Barclays research data science platform, which integrated alternative data and modern data techniques into investment research, and transformed the firm’s approach to content monetization. He also founded and hosted the popular Flip Side podcast, debating current issues affecting financial markets.</p>
+                <p>He received his AB in Mathematics from Princeton University and his PhD in Finance from the University of Chicago Booth School of Business.</p>
+            </div>
+        </div>
+    </section>
+</main>
+
+<footer class="bottomnav">
+    <ul>
+        <li>
+            <strong>Email</strong><br>
+            Personal: <a href="mailto:jeff.meli@yahoo.com">jeff.meli@yahoo.com</a><br>
+            Work: <a href="mailto:jm11241@stern.nyu.edu">jm11241@stern.nyu.edu</a>
+        </li>
+        <li>
+            <strong>LinkedIn</strong><br>
+            <a href="https://www.linkedin.com/in/jeffrey-meli-1006971b8" target="_blank">View Profile</a>
+        </li>
+        <li>
+            <strong>Address</strong><br>
+            Leonard N. Stern School of Business<br>
+            Kaufman Management Center<br>
+            44 West Fourth Street, New York, NY 10012
+        </li>
+        <li>
+          <a href="Meli-CV.pdf" target="_blank">CV/Resume</a>
+        </li>
+    </ul>
+</footer>
+
+<script>
+    const menuToggle = document.getElementById('menu-toggle');
+    const navLinks = document.getElementById('nav-links');
+
+    menuToggle.addEventListener('click', () => {
+        navLinks.classList.toggle('showing');
+    });
+</script>
+
+</body>
+</html>
